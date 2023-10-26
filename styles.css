@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background image for a historical theme */
+body {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #888;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Customize the layout for the image and text */
+#about img {
+    float: left;
+    margin-right: 20px;
+    max-width: 300px;
+}
+
+#skills,
+#family,
+#courses,
+#contact {
+    clear: both;
+      
