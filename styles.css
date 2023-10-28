@@ -4,16 +4,16 @@ body, h1, h2, p {
     padding: 0;
 }
 
-/* Apply a background image for a historical theme */
+/* Apply a background color and font style for a modern and appealing look */
 body {
-    background-image: url('your-background-image.jpg');
-    background-size: cover;
+    background-color: #f5f5f5;
     font-family: Arial, sans-serif;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #444;
+    background-color: #333;
     text-align: center;
     padding: 20px;
     color: #fff;
@@ -31,17 +31,17 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #444;
+    color: #333;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #888;
+    color: #666;
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #fff;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -56,16 +56,19 @@ a:hover {
     color: #0056b3;
 }
 
-/* Customize the layout for the image and text */
-#about img {
-    float: left;
-    margin-right: 20px;
-    max-width: 300px;
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
-#skills,
-#family,
-#courses,
-#contact {
-    clear: both;
+.about-text {
+    margin-top: 20px;
+}
+
+.certificates img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
       
